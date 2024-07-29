@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josiéli de S. Ramos\ Portfolio</title>
+  <meta name="description" content="Portfólio da desenvolvedora back-end Josiéli de Souza de Ramos">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="images/logo.png" alt="Logo">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento back-end</h1>
+      <p>Josiéli de s. Ramos desenvolvedora back-end</p>
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/Josi014" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/josieli-de-souza-de-ramos-dev/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>
+      </a>
+    </div>
+  </main>
+  <section class="technologies">
+    <h2>Conhecimento nas tecnologias</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="images/technologies/js.png" alt="js">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="images/technologies/java.png" alt="java">
+      </li>
+
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="images/projects/barbeariaAlura.jpeg" alt="barbeariaAlura">
+        <div class="card__body">
+          <h3 class="card__title">Barbearia Alura</h3>
+          <p class="card__description">Site para venda de serviços de uma barbearia</p>
+          <ul class="card__list">
+            <li class="card__item">Serviços disponiveis
+            </li>
+            <li class="card__item">navegação entre páginas</li>
+            <li class="card__item">Video de apresentação do youtube</li>
+            <li class="card__item">Localizaçã</li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+            <a href="https://github.com/Josi014/Site-Barbearia-Alura">
+              <button class="btn">
+                <span>Repositório</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="images/projects/sistemaIPVA.png" alt="sistemaIPVA">
+        <div class="card__body">
+          <h3 class="card__title">sistema IPVA</h3>
+          <p class="card__description">Sistema para calcular o IPVA</p>
+          <ul class="card__list">
+            <li class="card__item">Tabela de histórico</li>
+            <li class="card__item">Cálculo de IPVA</li>
+            <li class="card__item">Validação dos campos</li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+            <a href="https://github.com/Josi014/Sistema-IPVA">
+              <button class="btn">
+                <span>Repositório</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Josi014">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="images/foto1.0.jpeg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Olá! Sou uma desenvolvedora back-end, com conhecimento básico em front-end
+          ainda em formação, estou cursando Ciências da computação no Instituto Federal de Educação, Ciência e
+          Tecnologia Sul-Rio-Grandense. Meu enfoque principal está sendo a aprendizagem e aperfeiçoamento dos
+          conhecimentos em programação orientada a objetos com a linguagem Java e de manipulação de banco de dados
+          relacionais com SQL. Possuo também uma trajetória de conhecimentos em Javascript, HTML e CSS, no qual, foi
+          minha inicialização na área.
+        </p>
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/josieli-de-souza-de-ramos-dev/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+          <a href="">
+            <button class="btn">
+              <a href="CurrículoJosiéliSouza.pdf" download="CurrículoJosiéliSouza">
+                <span>Currículo</span>
+              </a>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Ciência da computação</h4>
+          <span>August 2023 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>IFSUL - Instituto Federal de educação, ciência e tecnologia Sul-rio-grandense </span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Estagiário Técnico em Ti</h4>
+          <span>MLtech soluções em TI October 2023 - Atualmente</span>
+          <span>Manutenções básicas de informática,
+            como: formatação, backup: configuração e
+            verificação mensal do mesmo, troca de
+            componentes do hardware, diagnósticos.
+            Obtive experiência com instalação e configuração
+            de equipamentos Unifi, para redes empresariais. E
+            de mais equipamentos de transmissão e recepção
+            de internet.
+            Participei também na criação e execução de projetos de
+            cabeamento de redes.
+          </span>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub - 2024</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. July 2024. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e
+                clonagem
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar
+                alterações
+                com o repositório remoto.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Contribuindo em um Projeto Open Source no GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. July 2024. 1h.
+              </p>
+              <p>
+                Lab prático sobre colaboração em projetos de código aberto.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>JavaScript: programando a Orientação a Objetos</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Alura. October 2021. 10h.
+              </p>
+              <p>
+                Programando a Orientação a objetos com a linguagem JavaScript.
+              </p>
+              <a href="https://cursos.alura.com.br/certificate/ac73ce51-ce02-446d-a053-4b3ef9d3da4f">Clique aqui</a>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Iniciante em Programação</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Alura.September 2021. 102h.
+              </p>
+              <p>
+                Inicialização de conhecimentos em HTML, CSS e da linguagem JavaScript.
+                <br />*Criação de páginas web.
+                <br />*Criação de jogos;
+              </p>
+              <a href="https://cursos.alura.com.br/degree/certificate/c9bd6f6e-6321-4ddf-ac68-b8fae6030d48">Clique
+                aqui</a>
+            </div>
+            <div class="accordion__item">
+              <button class="accordion__header end">
+                <span>Introdução ao banco de dados MYSQL</span>
+                <i class="bi bi-caret-down-fill"></i>
+              </button>
+              <div class="accordion__body end">
+                <p>
+                  Udemy July 2024. 30min.
+                </p>
+                <p>
+                  Inicialização de conhecimentos na linguagem SQL.
+                </p>
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Josi014" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/josieli-de-souza-de-ramos-dev/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:josielisouzaderamos714@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">josielisouzaderamos714@gmail.com</span>
+      </button>
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      Copyright - 2024
+    </p>
+  </footer>
+  <script src="scripts/js.js"></script>
+</body>
+
+</html>
